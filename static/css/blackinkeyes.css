@@ -30,6 +30,35 @@ text-decoration:none;
 a:hover{
 color: #6F5EED;
 }
+blockquote {
+  text-indent: -0.5em;
+  border-left: 20px solid rgb(248,41,255);
+  font: 30px Georgia, serif;
+  color: white;
+  margin: 2em;
+}
+blockquote::before {
+  position: absolute;
+  content: open-quote;
+  font-size: 120px;
+  margin-left: -0.8em;
+  margin-top: -0.4em;
+  color: #fff;
+}
+blockquote::after {
+	position: absolute;
+  content: close-quote;
+  font-size: 120px;
+  bottom: 0;
+  right: 0;
+  margin-right: -0.4em;
+  margin-bottom: -0.8em;
+  color: #fff;
+}
+blockquote {
+  quotes: "“" "”" "‘" "’";
+  position: relative;
+}
 Img{ max-width: 100%; height: auto }
 .boxed{
 	max-width: 1140px;
@@ -47,7 +76,7 @@ animation-fill-mode: forwards;
 }
 #birb {
  z-index: 3;
- background: url("https://res.cloudinary.com/blackinkeye/image/upload/v1594209240/main/blackinkeyebackq.webp");
+ background: url("https://cdn.statically.io/img/blackinkeye.bwldevelopment.com/static/img/blackinkeyeback.webp");
  background-position: center;
  background-repeat: no-repeat;
  background-size: contain;
@@ -60,7 +89,7 @@ animation-fill-mode: forwards;
 	width: 300px;
 }
 #birbold {
- background: url("https://res.cloudinary.com/blackinkeye/image/upload/v1593600455/main/lolzzz992backsvg.svg");
+ background: url("https://cdn.statically.io/img/blackinkeye.bwldevelopment.com/static/img/lolzzz992backq.svg");
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -305,10 +334,6 @@ background-color: rgba(16, 16, 16, 0.83);
  left:50%;
  transform:translateX(-50%)
 }
-.blackinkeye-shape .blackinkeye-shape-fill {
-	 transform-origin:center;
-	 transform:rotateY(0deg)
-}
 .footer-links {
  list-style:none;
  overflow:hidden;
@@ -412,7 +437,6 @@ background-color: rgba(16, 16, 16, 0.83);
 	overflow: hidden;
 	margin-left: -23px;
 	border-radius: 50%;
-    fill: #FFF;
 }
 #timeline .timeline-item .timeline-icon svg {
 	line-height: 50px;
