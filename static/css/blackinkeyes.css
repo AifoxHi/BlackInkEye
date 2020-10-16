@@ -125,7 +125,7 @@ animation-fill-mode: forwards;
 }
 #birb {
  z-index: 3;
- background: url("https://cdn.statically.io/img/blackinkeye.bwldevelopment.com/static/img/blackinkeyeback.webp");
+ background: url(../img/biebackflat.webp);
  background-position: center;
  background-repeat: no-repeat;
  background-size: contain;
@@ -166,10 +166,23 @@ background-color: rgba(16, 16, 16, 0.83);
 }
 #morelisttext{
 	color: #DADADA;
+	font-family: sans-serif;
     font-size: 18px;
 }
+
+#text-elem{
+  display:grid;
+  text-align:center;
+  font-size:100px;
+  text-transform:uppercase;
+  margin-top:70px;
+}
+#text-line-1,#text-line-2,#text-line-3{
+  display:flex;
+  justify-content:space-evenly;
+}
 #headbutts{
-	margin-top: -20px; margin-left: 100px; margin-bottom: 40px;
+	margin: -20px 0px 40px 100px;
 }
 .birbsbutt
 {
@@ -298,7 +311,7 @@ background-color: rgba(16, 16, 16, 0.83);
   background: #FFF;
 }
 #donabutt {
-  background: #2A2A2A;
+  background: #FFF;
 }
 .youtubebutt {
   background: #cd201f;
@@ -314,6 +327,7 @@ background-color: rgba(16, 16, 16, 0.83);
     font-size: 30px;
     text-decoration: overline;
 	text-decoration-color: #FFF;
+	color:#FFF;
 	margin-left: 195px;
 	margin-top: -20px;
 }
@@ -339,7 +353,7 @@ background-color: rgba(16, 16, 16, 0.83);
 #helloe-heading-title {
 	margin-bottom: 20px;
 	color: #C93267;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 130px;
 	text-align: center;
 }
@@ -719,7 +733,7 @@ background-color: rgba(16, 16, 16, 0.83);
 	transform: translateY(600px);
 }
 	#headbutts{
-	margin-top: -20px; margin-left: 20px; margin-bottom: 40px;
+	margin: -20px 0px 40px 20px;
 }
 }
 @media (max-width: 600px) {
