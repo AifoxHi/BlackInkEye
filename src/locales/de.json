@@ -1,0 +1,103 @@
+{
+	"english": "",
+	"language": "",
+	"message": {
+		"car": "",
+		"main": {
+			"1": {
+				"about": "",
+				"blog": "",
+				"contact": "",
+				"donate": "",
+				"faq": "",
+				"forum": "",
+				"games": "",
+				"projects": "",
+				"welcome": "",
+				"wiki": ""
+			},
+			"2": {
+				"aboutme": "",
+				"aboutmetext": "",
+				"hello": "",
+				"mynameis": "",
+				"readmore": ""
+			},
+			"3": {
+				"content1": "",
+				"content2": "",
+				"content3": "",
+				"evenmore": "",
+				"evenmore1": "",
+				"exploremore": "",
+				"notending": ""
+			},
+			"4": {
+				"card1": {
+					"header": "",
+					"text": "",
+					"time": ""
+				},
+				"card2": {
+					"header": "",
+					"text": "",
+					"time": ""
+				},
+				"card3": {
+					"header": "",
+					"text": "",
+					"time": ""
+				},
+				"card4": {
+					"header": "",
+					"text": "",
+					"time": ""
+				},
+				"timeline": ""
+			},
+			"5": {
+				"s1": {
+					"text": ""
+				},
+				"s2": {
+					"header": "",
+					"link1": "",
+					"link2": "",
+					"link3": ""
+				},
+				"s3": {
+					"header": "",
+					"link1": "",
+					"link2": "",
+					"link3": ""
+				},
+				"s4": {
+					"header": ""
+				}
+			},
+			"6": {
+				"button": "",
+				"button1": "",
+				"button10": "",
+				"button11": "",
+				"button2": "",
+				"button3": "",
+				"button4": "",
+				"button5": "",
+				"button6": "",
+				"button7": "",
+				"button8": "",
+				"button9": ""
+			},
+			"id": {
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": ""
+			}
+		}
+	},
+	"russian": ""
+}

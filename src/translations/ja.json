@@ -1,0 +1,85 @@
+{
+	"english": "",
+	"language": "",
+	"message": {
+		"main": {
+			"1": {
+				"about": "",
+				"blog": "",
+				"contact": "",
+				"donate": "",
+				"faq": "",
+				"forum": "",
+				"games": "",
+				"projects": "",
+				"welcome": "",
+				"wiki": ""
+			},
+			"2": {
+				"aboutme": "",
+				"aboutmetext": "私はゲーム開発者、ウェブ開発者、アーティスト、アニメーションアーティスト、デザイナーです。",
+				"hello": "",
+				"mynameis": "",
+				"readmore": ""
+			},
+			"3": {
+				"content1": "",
+				"content2": "",
+				"content3": "",
+				"evenmore": "",
+				"evenmore1": "",
+				"exploremore": "",
+				"notending": ""
+			},
+			"4": {
+				"card1": {
+					"header": "",
+					"text": "",
+					"time": ""
+				},
+				"card2": {
+					"header": "",
+					"text": "",
+					"time": ""
+				},
+				"card3": {
+					"header": "",
+					"text": "",
+					"time": ""
+				},
+				"card4": {
+					"header": "",
+					"text": "",
+					"time": ""
+				},
+				"timeline": ""
+			},
+			"5": {
+				"s2": {
+					"header": "",
+					"link1": "",
+					"link2": "",
+					"link3": ""
+				},
+				"s3": {
+					"header": "",
+					"link1": "",
+					"link2": "",
+					"link3": ""
+				},
+				"s4": {
+					"header": ""
+				}
+			},
+			"id": {
+				"1": "",
+				"2": "",
+				"3": "",
+				"4": "",
+				"5": "",
+				"6": ""
+			}
+		}
+	},
+	"russian": ""
+}

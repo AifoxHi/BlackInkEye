@@ -1,0 +1,85 @@
+{
+	"english": "English (EN)",
+	"language": "Language",
+	"message": {
+		"main": {
+			"1": {
+				"about": "About",
+				"blog": "Blog",
+				"contact": "Contact",
+				"donate": "Donate:",
+				"faq": "FAQ",
+				"forum": "Forum",
+				"games": "Games",
+				"projects": "Projects",
+				"welcome": "Welcome to BlackInkEye web portal",
+				"wiki": "Wiki"
+			},
+			"2": {
+				"aboutme": "About me:",
+				"aboutmetext": "I'm game developer, website developer, artist, animator, designer; story, poem and song writer and list goes on!\n\nYou can follow me, watch my video on youtube or talk to me, maybe you want to offer me a job? In any case use links bellow",
+				"hello": "HELLO!",
+				"mynameis": "My name is Sofia:",
+				"readmore": "Read More ➤"
+			},
+			"3": {
+				"content1": "2000+ Links",
+				"content2": "250+ Notes",
+				"content3": "And even more!",
+				"evenmore": "You wanna something more?",
+				"evenmore1": "You can check my links, notes stash!\nYou may find something interesting",
+				"exploremore": "Explore more ➤",
+				"notending": "It's looks like ending but..."
+			},
+			"4": {
+				"card1": {
+					"header": "Ink opened its eyes",
+					"text": "This site was created. The first brick was laid in the Foundation. That is just beginning! Click on button to see full story.",
+					"time": "03 Dec 2019 7:55 pm "
+				},
+				"card2": {
+					"header": "Site is finally finished!",
+					"text": "Site is finally finished and on rewrited on html! But it's not all! I will add more to site, so stay tune! Click on button to see full story",
+					"time": "25 Apr 2020"
+				},
+				"card3": {
+					"header": "To be continued?",
+					"text": "Even more interesting things",
+					"time": "Somewhere in 2020"
+				},
+				"card4": {
+					"header": "I accidentally buyed Google, Amazon, Disney, Microsoft.. ooops...",
+					"text": "Just kidding.... or not... or yes...",
+					"time": "TBA"
+				},
+				"timeline": "TIMELINE:"
+			},
+			"5": {
+				"s2": {
+					"header": "About",
+					"link1": "Privacy Policy",
+					"link2": "Sitemap",
+					"link3": "Press"
+				},
+				"s3": {
+					"header": "About",
+					"link1": "FAQs",
+					"link2": "RSS Feeds",
+					"link3": "Press"
+				},
+				"s4": {
+					"header": "Follow"
+				}
+			},
+			"id": {
+				"1": "Main Menu Section",
+				"2": "About Me Section",
+				"3": "More Content Section",
+				"4": "Timeline Section",
+				"5": "Footer Section",
+				"6": "SideBar Section"
+			}
+		}
+	},
+	"russian": "Russian (RU)"
+}
