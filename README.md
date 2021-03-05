@@ -14,6 +14,10 @@ npm install
 ```
 npm run serve
 ```
+or if doesn't work (like for me) use second way to run this
+```
+npm run-script serve
+```
 
 ### Compiles and minifies for production
 ```
