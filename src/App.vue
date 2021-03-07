@@ -29,17 +29,6 @@ export default {
     'webapp-selectlanguage':selectlanguage,
   },
 
-  created() {
-    var scripts = [
-      "https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"
-    ];
-    scripts.forEach(script => {
-      let tag = document.createElement("script");
-      tag.setAttribute("src", script);
-      document.head.appendChild(tag);
-    });
-  },
-
   data() {
     return {
       
