@@ -13,9 +13,18 @@
 <div class="col">
 <div class="birbsbuttno" style="margin-left: 145px;"><a href="https://youtu.be/Dg75RpFEnXE" rel="nofollow noopener" target="_blank">❖</a></div>
 <a class="birbsbutt" id="but1" href="site/about-me" target="_self"><svg width="37" height="30" viewBox="0 0 496 512"><path d="M248 104a96 96 0 000 192c137-14 113-184 0-192zm0 144c-60-1-63-94 0-96 64-1 66 93 0 96zm0-240c-341 1-318 494 0 496 341 2 320-497 0-496zM118 408c55-60 213-65 260 0-80 62-188 60-260 0zm293-36c-76-74-258-77-326 0-44-61-50-141-15-208a206 206 0 01355 0c35 67 29 147-15 208z" /></svg>{{ $t("message.main.1.about") }}</a>
+<vue-final-modal
+      	v-model="showModal"
+    	:attach="'#app'"
+    	:esc-to-close="true"
+      	classes="modal-container"
+		content-class="modal-content">
+      <span class="modal__title">Hello, vue-final-modal</span>
+	  <p>ZZZZ </p>
+</vue-final-modal>
 <a class="birbsbutt" id="but2" href="https://blogger.blackinkeye.tk" target="_self"><svg width="37" height="30" viewBox="0 0 512 512"><path d="M93 180c1 73-134 239-78 295l150-150c-8-192 210 38 22 22L37 497c71 33 217-52 295-78 63-36 65-129 84-195L288 96c-55 25-172 21-195 84zM370 14l-57 57 128 128 57-57c50-61-80-173-128-128z" /></svg>{{ $t("message.main.1.blog") }}</a>
 <a class="birbsbutt" id="but3" href="site/community/" target="_self"><svg height="30" viewBox="0 0 640 512"><path d="M96 224c91-9 67-126 0-128-91 9-67 126 0 128zm448 0c91-9 67-126 0-128-91 9-67 126 0 128zm-77 51c40 22 69 62 75 109 32 0 97 9 98-32 16-94-116-133-173-77zm-147-19c160-16 118-220 0-224-160 16-118 220 0 224zm69 32c-43 21-94 21-137 0-70 0-182 189-76 192h288c118-38-6-190-75-192zm-216-13C81 159-68 381 32 384h66c6-47 35-87 75-109z" /></svg>{{ $t("message.main.1.forum") }}</a>
-<a class="birbsbutt" id="but4" href="https://lolzzz992.itch.io/" rel="nofollow noopener" target="_blank"><svg height="30" viewBox="0 0 640 512"><path d="M480 96H160a160 160 0 10114 272h92A160 160 0 10480 96zM248 268a12 12 0 01-12 12h-52v52a12 12 0 01-12 12h-24a12 12 0 01-12-12v-52H84a12 12 0 01-12-12v-24a12 12 0 0112-12h52v-52a12 12 0 0112-12h24a12 12 0 0112 12v52h52a12 12 0 0112 12zm216 76a40 40 0 1140-40 40 40 0 01-40 40zm64-96a40 40 0 1140-40 40 40 0 01-40 40z" /></svg>{{ $t("message.main.1.games") }}</a>
+<a class="birbsbutt vfm-btn"  @click="showModal = true" id="but4" rel="nofollow noopener" target="_blank"><svg height="30" viewBox="0 0 640 512"><path d="M480 96H160a160 160 0 10114 272h92A160 160 0 10480 96zM248 268a12 12 0 01-12 12h-52v52a12 12 0 01-12 12h-24a12 12 0 01-12-12v-52H84a12 12 0 01-12-12v-24a12 12 0 0112-12h52v-52a12 12 0 0112-12h24a12 12 0 0112 12v52h52a12 12 0 0112 12zm216 76a40 40 0 1140-40 40 40 0 01-40 40zm64-96a40 40 0 1140-40 40 40 0 01-40 40z" /></svg>{{ $t("message.main.1.games") }}</a>
 <a class="birbsbutt" id="but5" href="site/projects" target="_self"><svg height="30" viewBox="0 0 576 512"><path d="M480 224c4-41-6-95-48-96H272l-64-64H48C22 64 0 86 0 112v288c7 58 147 44 448 48 52 3 83-104 121-151 27-70-38-73-89-73zM188 112l64 64c85 9 185-25 180 48H152c-40 10-77 82-104 127C62 99 27 101 188 112zm260 288H72l77-128h379z" /></svg>{{ $t("message.main.1.projects") }}</a>
 <a class="birbsbutt" id="but6" href="https://wiki.blackinkeye.tk" target="_self"><svg width="37" height="30" viewBox="0 0 448 512"><path d="M448 360V24c0-13-11-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13 0 24-11 24-24v-16c0-7-3-14-9-19-4-15-4-59 0-74 6-5 9-11 9-19zM128 134c0-3 3-6 6-6h212c3 0 6 3 6 6v20c0 3-3 6-6 6H134c-3 0-6-3-6-6v-20zm0 64c0-3 3-6 6-6h212c3 0 6 3 6 6v20c0 3-3 6-6 6H134c-3 0-6-3-6-6v-20zm253 250H96a32 32 0 110-64h285c-2 17-2 47 0 64z" /></svg>{{ $t("message.main.1.wiki") }}</a>
 <a class="birbsbutt" id="but7" href="site/contact" target="_self"><svg width="37" height="30" viewBox="0 0 448 512"><path d="M448 148v-40c-3-16-19-12-32-12V48c0-26-21-48-48-48H48C22 0 0 22 0 48v416c0 27 22 48 48 48h320c27 0 48-21 48-48v-48c12 0 32 3 32-12v-40c-3-16-19-12-32-12v-64c12 0 32 3 32-12v-40c-3-16-19-12-32-12v-64c12 0 32 3 32-12zm-80 316H48V48h320zM208 256c92-3 80-128 0-128-89 0-81 130 0 128zm112 109c3-44-35-76-67-77-32 15-60 17-90 0-50 9-67 35-67 77 28 33 197 33 224 0z" /></svg>{{ $t("message.main.1.contact") }}</a>
@@ -34,6 +43,43 @@
 </section>
 </div>  
 </template>
+
+<script>
+export default {
+  data: () => ({
+    showModal: false
+  })
+}
+</script>
+
+
+<style scoped>
+::v-deep .modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::v-deep .modal-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.25rem;
+  background: #fff;
+}
+.modal__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+</style>
+
+<style scoped>
+.dark-mode div::v-deep .modal-content {
+  border-color: #2d3748;
+  background-color: #1a202c;
+}
+</style>
 
 <style>
 /* Made by lolzzz992 (Sofia The Birb) | Don't watch code! IT'S NAKED!!!!  */
@@ -82,7 +128,7 @@ blockquote {
   text-align: center;
   padding: 1px 0;
   border-radius: 6px;
-  z-index: 412;
+  z-index: 1;
   left: 15px;
   opacity: 0;
   transition: 200ms ease, width 500ms ease;
@@ -208,6 +254,7 @@ background-color: rgba(16, 16, 16, 0.83);
   border: 3px solid #C52100;
   transform:rotate(5deg) scale(1.1,1.1);
   transition: 0.3s ease;
+  cursor: pointer;
 }
 .birbsbutt:hover svg {
  fill: #C52100;
@@ -380,7 +427,7 @@ background-color: rgba(16, 16, 16, 0.83);
 	max-width: 140px;
 }
 #but5 {
-	margin-left: 260px;
+	margin-left: 245px;
 	max-width: 154px;
 }
 #but6 {
@@ -538,6 +585,8 @@ background-color: rgba(16, 16, 16, 0.83);
 #but1, #but2, #but3, #but4, #but5, #but6, #but7 {
  margin-left: 0px;
 		border: none;
+text-align: left;
+display: table;
 }
 }
 @media (max-width: 1100px) {
@@ -567,6 +616,9 @@ background-color: rgba(16, 16, 16, 0.83);
 	#headbutts{
 	margin: -20px 0px 40px 20px;
 }
+			#but0, #but1, #but2, #but3, #but4, #but5, #but6, #but7 {
+		max-width: none;
+	}
 }
 @media (max-width: 600px) {
 	#helloe-heading-title {

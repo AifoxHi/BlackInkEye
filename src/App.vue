@@ -1,12 +1,13 @@
 <template>
 <div id="app">
   <div class="content">
-    <div id="nav">
+<!--    <div id="nav">
+    <a @click="$router.go(-1)">back</a>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/sofia">Sofia</router-link> |
     <router-link to="/aifos">Aifos</router-link>
-  </div>
+  </div> -->
   <router-view />
   </div>
   <webapp-sidebar />
@@ -24,15 +25,15 @@ export default {
   name: 'App',
 
   components: {
-    'webapp-footer':footer,
+    'webapp-footer':footer,   
     'webapp-sidebar':sidebar,
     'webapp-selectlanguage':selectlanguage,
   },
 
   data() {
     return {
-      
-    }
+      mdFile: '',
+     }
   },
 };
 
@@ -51,23 +52,32 @@ export default {
 #nav {
   padding: 30px;
   text-align: center;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 </style>
 
 <style>
+html {
+    overflow-x:hidden;
+}
 html, body {
   height: 100%;
+  scrollbar-color: #ac6979 #790623;
+}
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #790623;
+}     
+
+::-webkit-scrollbar-thumb {
+    background: #ac6979;
+    -webkit-border-ac6979: 2ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
 }
 
+::-webkit-scrollbar-corner {
+    background: #000;
+}
 .json-line {
     white-space:pre-wrap;
 }
@@ -82,6 +92,10 @@ html, body {
   flex: 1 0 auto;
   /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. 
   padding: 20px; */
+}
+
+.text-align-center {
+    text-align: center;
 }
 
 .footer {
@@ -104,7 +118,6 @@ footer {
 }
 html {
 	overflow-x: hidden;
-	margin-right: calc(-1 * (100vw - 100%));
 }
 body {
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAAAAACpleexAAAAMUlEQVR4AWOAABkZgjSIBSTw0kQrQhhLmCZdKQGadJWEFY6GI3Z6NBxHw3E0HEfDEQATEyONt6fsSAAAAABJRU5ErkJggg==');

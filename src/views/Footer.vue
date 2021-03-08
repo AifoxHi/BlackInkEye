@@ -4,7 +4,7 @@
 <div style="background-color: #222;">
 <div class="container">
 	  <div class="row">
-		<div class="col-sm-4" style="z-index: 1000">
+		<div class="col-sm-4" style="z-index: 18">
 		  <img loading="lazy" alt="logo" style="width:15%; float:left;" src="./../assets/sitelogo1-1.png"	 width="100" height="100">
 		  <p style="margin-bottom: 1.5em;">© 2019-{{ new Date().getFullYear() }} – <a href="https://blackinkeye.tk/">BlackInkEye</a> | {{ $t("message.main.5.s1.text") }}</p>
 		</div>

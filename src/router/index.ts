@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import Home from "../views/Home.vue";
-
-const routes: Array<RouteRecordRaw> = [
+  
+const routes: Array<RouteRecordRaw> = [  
   {
     path: "/",
     name: "Home",
@@ -33,7 +33,12 @@ const routes: Array<RouteRecordRaw> = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Aifos.vue")
-  }
+  },
+  { 
+    path: '/:pathMatch(.*)*',
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../404.vue")
+  },
 ];
 
 const router = createRouter({

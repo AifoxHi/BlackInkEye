@@ -3,7 +3,7 @@
 <img id="sidelogo" loading="lazy" alt="logo" src="./../assets/sitelogo1-1.png">
 <ul class="sideicoon">
 <li class="sideico"><a class="sideicon tooltip" href="site/extra"><span class="tooltiptext tooltip-right">{{ $t("message.main.6.button1") }}</span><i class="fa fa-question-circle"></i></a></li>
-<li class="sideico"><a class="sideicon tooltip" href="#"><span class="tooltiptext tooltip-right">{{ $t("message.main.6.button2") }}</span><i class="fa fa-fw fa-home"></i></a></li>
+<li class="sideico"><router-link  class="sideicon tooltip" to="/"><span class="tooltiptext tooltip-right">{{ $t("message.main.6.button2") }}</span><i class="fa fa-fw fa-home"></i></router-link></li>
 <li class="sideico"><a class="sideicon tooltip" href="site/about-me/"><span class="tooltiptext tooltip-right">{{ $t("message.main.6.button3") }}</span><i class="fa fa-fw fa-envelope"></i></a></li>
 <li class="sideico"><a class="sideicon tooltip" href="site/shop/"><span class="tooltiptext tooltip-right">{{ $t("message.main.6.button4") }}</span><i class="fa-fw fa fa-shopping-bag"></i></a></li>
 <li class="sideico"><a class="sideicon tooltip" href="https://blogger.blackinkeye.tk/"><span class="tooltiptext tooltip-right">{{ $t("message.main.6.button5") }}</span><i class="fa-fw fa fa-book"></i></a></li>
@@ -33,7 +33,7 @@
   text-align: center;
   padding: 1px 0;
   border-radius: 6px;
-  z-index: 412;
+  z-index: 20;
   left: 15px;
   opacity: 0;
   transition: 200ms ease, width 500ms ease;

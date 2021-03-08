@@ -78,16 +78,16 @@
 			"6": {
 				"button": "",
 				"button1": "",
-				"button10": "",
-				"button11": "",
-				"button2": "",
-				"button3": "",
-				"button4": "",
-				"button5": "",
-				"button6": "",
-				"button7": "",
-				"button8": "",
-				"button9": ""
+				"button10": "Связаться",
+				"button11": "Ссылки",
+				"button2": "Домой",
+				"button3": "Обо Мне",
+				"button4": "Магазин",
+				"button5": "Блог",
+				"button6": "Форум",
+				"button7": "Игры",
+				"button8": "Проекты",
+				"button9": "Вики"
 			},
 			"id": {
 				"1": "Главное Меню (Секция)",
